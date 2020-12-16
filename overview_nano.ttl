@@ -1,0 +1,307 @@
+
+# format: turtle
+
+@prefix epix: <https://github.com/jpmvrijn/EPIX_overview/terms#> .
+@prefix epid: <https://github.com/jpmvrijn/EPIX_overview/ids#> .
+@prefix dct:  <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+epid:PROJ_00001 a epix:Project ;
+    rdfs:label "eNanoMapper" ;
+    epix:fundScheme epid:FS_00001 ;
+    dct:date "2014/2017"^^xsd:date ;
+    dct:contributor epid:PART_00017, epid:PART_00011, epid:PART_00005 .
+
+epid:PROJ_00002 a epix:Project ;
+    rdfs:label "NanoMILE" ;
+    epix:fundScheme epid:FS_00001 ;
+    dct:date "2013/2017"^^xsd:date ;
+    dct:contributor epid:PART_00018, epid:PART_00009, epid:PART_00010, epid:PART_00002 ;
+    epix:coord epid:PART_00018 .
+
+epid:PROJ_00003 a epix:Project ;
+    rdfs:label "NanoDefine" ;
+    epix:fundScheme epid:FS_00001 ;
+    dct:date "2014/2017"^^xsd:date ;
+    dct:contributor epid:PART_00001, epid:PART_00018 .
+
+epid:PROJ_00004 a epix:Project ;
+    rdfs:label "Seurat-1 Project" ;
+    epix:fundScheme epid:FS_00001 ;
+    dct:date "2011/2016"^^xsd:date ;
+    dct:contributor epid:PART_00005 through PART_00006 .
+
+epid:PROJ_00005 a epix:Project ;
+    rdfs:label "NanoReg" ;
+    epix:fundScheme epid:FS_00002 ;
+    dct:date "2013/2017"^^xsd:date ;
+    dct:contributor epid:PART_00010, epid:PART_00008, epid:PART_00005 through PART_00006 .
+
+epid:PROJ_00006 a epix:Project ;
+    rdfs:label "NanoFate" ;
+    epix:fundScheme epid:FS_00003 ;
+    dct:date "2010/2014"^^xsd:date ;
+    dct:contributor epid:PART_00016, epid:PART_00018 ;
+    epix:coord epid:PART_00016 .
+
+epid:PROJ_00007 a epix:Project ;
+    rdfs:label "QualityNano" ;
+    epix:fundScheme epid:FS_00004 ;
+    dct:date "2011/2015"^^xsd:date ;
+    dct:contributor epid:PART_00018, epid:PART_00008 .
+
+epid:PROJ_00008 a epix:Project ;
+    rdfs:label "Marina" ;
+    epix:fundScheme epid:FS_00001 ;
+    dct:date "2008/2011"^^xsd:date ;
+    dct:contributor epid:PART_00018, epid:PART_00015 .
+
+epid:PROJ_00009 a epix:Project ;
+    rdfs:label "SUN" ;
+    epix:fundScheme epid:FS_00001 ;
+    dct:date "2008/2011"^^xsd:date ;
+    dct:contributor epid:PART_00010 .
+
+epid:PROJ_00010 a epix:Project ;
+    rdfs:label "OpenTox" ;
+    epix:fundScheme epid:FS_00001 ;
+    dct:date "2008/2011"^^xsd:date ;
+    dct:contributor epid:PART_00011 .
+
+epid:PROJ_00011 a epix:Project ;
+    rdfs:label "ENPRA" ;
+    epix:fundScheme epid:FS_00003 ;
+    dct:date "2009/2012"^^xsd:date ;
+    dct:contributor epid:PART_00010 .
+
+epid:PROJ_00012 a epix:Project ;
+    rdfs:label "NanoSustain" ;
+    epix:fundScheme epid:FS_00003 ;
+    dct:date "2010/2013"^^xsd:date ;
+    dct:contributor epid:PART_00010 .
+
+epid:PROJ_00013 a epix:Project ;
+    rdfs:label "NanoValid" ;
+    epix:fundScheme epid:FS_00001 ;
+    dct:date "2011/2015"^^xsd:date ;
+    dct:contributor epid:PART_00018, epid:PART_00010, epid:PART_00001 .
+
+epid:PROJ_00014 a epix:Project ;
+    rdfs:label "NeuroNano" ;
+    epix:fundScheme epid:FS_00003 ;
+    dct:date "2009/2012"^^xsd:date ;
+    dct:contributor epid:PART_00015, epid:PART_00018 .
+
+epid:PROJ_00015 a epix:Project ;
+    rdfs:label "MembraneNanoPart" ;
+    epix:fundScheme epid:FS_00005 ;
+    dct:date "2013/2015"^^xsd:date ;
+    dct:contributor epid:PART_00015, epid:PART_00014 .
+
+epid:PROJ_00016 a epix:Project ;
+    rdfs:label "NanoGenoTox" ;
+    epix:fundScheme epid:FS_00006 ;
+    dct:date "2010/2013"^^xsd:date ;
+    dct:contributor epid:PART_00010 .
+
+epid:PROJ_00017 a epix:Project ;
+    rdfs:label "SETNanoMetro" ;
+    epix:fundScheme epid:FS_00001 ;
+    dct:date "2013/2017"^^xsd:date ;
+    dct:contributor epid:PART_00001 .
+
+epid:PROJ_00018 a epix:Project ;
+    rdfs:label "NanoTest" ;
+    epix:fundScheme epid:FS_00007 ;
+    dct:date "2008/2012"^^xsd:date ;
+    dct:contributor epid:PART_00008 ;
+    epix:coord epid:PART_00008 .
+
+epid:PROJ_00019 a epix:Project ;
+    rdfs:label "GUIDEnano" ;
+    epix:fundScheme epid:FS_00001 ;
+    dct:date "2013/2017"^^xsd:date ;
+    dct:contributor epid:PART_00016 .
+
+epid:PROJ_00020 a epix:Project ;
+    rdfs:label "MODERN project" ;
+    epix:fundScheme epid:FS_00005 ;
+    dct:date "2013/2015"^^xsd:date ;
+    dct:contributor epid:PART_00019RTU, epid:UCLA . #todo: needs fix
+
+epid:PROJ_00021 a epix:Project ;
+    rdfs:label "NANOsolutions" ;
+    epix:fundScheme epid:FS_00001 ;
+    dct:date "2014/2017"^^xsd:date ;
+    dct:contributor epid:PART_00019, epid:PART_00005, epid:PART_00007 .
+
+epid:PROJ_00022 a epix:Project ;
+    rdfs:label "NanoPUZZLES" ;
+    epix:fundScheme epid:FS_00005 ;
+    dct:date "2013/2015"^^xsd:date ;
+    dct:contributor epid:PART_00012 ;
+    epix:coord epid:PART_00012 .
+    
+
+epid:PROJ_00023 a epix:Project ;
+    rdfs:label "futureNanoNeeds" ;
+    epix:fundScheme epid:FS_00001 ;
+    dct:date "2014/2017"^^xsd:date ;
+    dct:contributor epid:PART_00018, epid:PART_00015 ;
+    epix:coord epid:PART_00015 .
+
+epid:PROJ_00024 a epix:Project ;
+    rdfs:label "NanoBridges" ;
+    epix:fundScheme epid:FS_00008 ;
+    dct:date "2012/2014"^^xsd:date ;
+    dct:contributor epid:PART_00012s via PART_00013 .
+
+epid:PROJ_00025 a epix:Project ;
+    rdfs:label "modena" ;
+    epix:fundScheme epid:FS_00009 ;
+    dct:date "2012/2016"^^xsd:date ;
+    dct:contributor epid:PART_00005, epid:PART_00015, epid:PART_00012, epid:PART_00004 .
+
+epid:PROJ_00026 a epix:Project ;
+    rdfs:label "ModNanoTox" ;
+    epix:fundScheme epid:FS_00005 ;
+    dct:date "2011/2013"^^xsd:date ;
+    dct:contributor epid:PART_00018 ;
+    epix:coord epid:PART_00018 .
+
+epid:PROJ_00027 a epix:Project ;
+    rdfs:label "S2NANO : PredictNano" ;
+    epix:fundScheme epid:FS_00010 ;
+    dct:date "2012/2017"^^xsd:date ;
+    dct:contributor epid:PART_00003 .
+
+epid:PROJ_00028 a epix:Project ;
+    rdfs:label "NanoCommons" ;
+    epix:fundScheme epid:FS_00011 ;
+    dct:date "2018/2021"^^xsd:date ;
+    dct:contributor epid:PART_00018, epid:PART_00009, epid:PART_00011, epid:PART_00017, epid:PART_00015, epid:PART_00016, epid:PART_00002 ;
+    epix:coord epid:PART_00018 .
+
+epid:PROJ_00029 a epix:Project ;
+    rdfs:label "SmartNanoTox" ;
+    epix:fundScheme epid:FS_00012 ;
+    dct:date "2016/2020"^^xsd:date ;
+    dct:contributor epid:PART_00015, epid:PART_00014, epid:PART_00010 ;
+    epix:coord epid:PART_00015 .
+
+epid:PROJ_00030 a epix:Project ;
+    rdfs:label "NanoReg2" ;
+    epix:fundScheme epid:FS_00012 ;
+    dct:date "2015/2018"^^xsd:date ;
+    dct:contributor epid:PART_00010, epid:PART_00012, epid:PART_00008, epid:PART_00005 through KI . #fix
+
+epid:PROJ_00031 a epix:Project ;
+    rdfs:label "PARTOLS" ;
+    epix:fundScheme epid:FS_00012 ;
+    dct:date "2018/2021"^^xsd:date ;
+    dct:contributor epid:PART_00012, epid:PART_00005, epid:PART_00010 .
+
+epid:PROJ_00032 a epix:Project ;
+    rdfs:label "ACEnano" ;
+    epix:fundScheme epid:FS_00012 ;
+    dct:date "2017/2020"^^xsd:date ;
+    dct:contributor epid:PART_00018, epid:PART_00016, epid:PART_00001, epid:PART_00003 ;
+    epix:coord epid:PART_00018 .
+
+epid:PROJ_00033 a epix:Project ;
+    rdfs:label "CaLIBRAte" ;
+    epix:fundScheme epid:FS_00012 ;
+    dct:date "2016/2019"^^xsd:date ;
+    dct:contributor epid:PART_00010, epid:PART_00019, epid:PART_00005, epid:PART_00016 ;
+    epix:coord epid:PART_00010 .
+
+epid:PROJ_00034 a epix:Project ;
+    rdfs:label "NanoFASE" ;
+    epix:fundScheme epid:FS_00012 ;
+    dct:date "2015/2019"^^xsd:date ;
+    dct:contributor epid:PART_00016, epid:PART_00018 ;
+    epix:coord epid:PART_00016 .
+
+epid:PROJ_00035 a epix:Project ;
+    rdfs:label "ECforSafeNano" ;
+    epix:fundScheme epid:FS_00013 ;
+    dct:date "2016/2019"^^xsd:date ;
+    dct:contributor epid:PART_00018, epid:PART_00010, epid:PART_00001 .
+
+epid:PROJ_00036 a epix:Project ;
+    rdfs:label "OpenRiskNEt" ;
+    epix:fundScheme epid:FS_00014 ;
+    dct:date "2016/2019"^^xsd:date ;
+    dct:contributor epid:PART_00018, epid:PART_00017, epid:PART_00011 .
+
+epid:PROJ_00037 a epix:Project ;
+    rdfs:label "NanoGenTools" ;
+    epix:fundScheme epid:FS_00015 ;
+    dct:date "2016/2019"^^xsd:date ;
+    dct:contributor epid:PART_00018, epid:NM . #fix
+
+epid:PROJ_00038 a epix:Project ;
+    rdfs:label "HISENTS" ;
+    epix:fundScheme epid:FS_00012 ;
+    dct:date "2017/2021"^^xsd:date ;
+    dct:contributor epid:PART_00008 .
+
+epid:PROJ_00039 a epix:Project ;
+    rdfs:label "gracious" ;
+    epix:fundScheme epid:FS_00012 ;
+    dct:date "2018/2021"^^xsd:date ;
+    dct:contributor epid:PART_00010, epid:PART_00016 .
+
+epid:PROJ_00040 a epix:Project ;
+    rdfs:label "GEmns" ;
+    epix:fundScheme epid:FS_00016 ;
+    dct:date "2012/2016"^^xsd:date ;
+    dct:contributor epid:PART_00008 .
+
+epid:PROJ_00041 a epix:Project ;
+    rdfs:label "innocent" ;
+    epix:fundScheme epid:FS_00017 ;
+    dct:date "2017/2021"^^xsd:date ;
+    dct:contributor epid:PART_00008 .
+
+epid:PROJ_00042 a epix:Project ;
+    rdfs:label "EUToxRisk" ;
+    epix:fundScheme epid:FS_00018 ;
+    dct:date "2016/2021"^^xsd:date ;
+    dct:contributor epid:PART_00017 .
+
+epid:PROJ_00043 a epix:Project ;
+    rdfs:label "inNANOPART" ;
+    epix:fundScheme epid:FS_00019 ;
+    dct:date "2015/2019"^^xsd:date ;
+    dct:contributor epid:PART_00001 .
+
+epid:PROJ_00044 a epix:Project ;
+    rdfs:label "EMPIR nPSize" ;
+    epix:fundScheme epid:FS_00019 ;
+    dct:date "2018/2020"^^xsd:date ;
+    dct:contributor epid:PART_00001 .
+
+epid:PROJ_00045 a epix:Project ;
+    rdfs:label "FENAC" ;
+    epix:fundScheme epid:FS_00020 ;
+    dct:date "2009/date"^^xsd:date ;
+    dct:contributor epid:PART_00018 .
+
+epid:PROJ_00046 a epix:Project ;
+    rdfs:label "Phenome centre Birmingham" ;
+    epix:fundScheme epid:FS_00021 ;
+    dct:date "2010/date"^^xsd:date ;
+    dct:contributor epid:PART_00018 .
+
+epid:PROJ_00047 a epix:Project ;
+    rdfs:label "US CEINT" ;
+    epix:fundScheme epid:FS_00022 ;
+    dct:date "2008/2018"^^xsd:date ;
+    dct:contributor epid:PART_00016, epid:PART_00018 .
+
+epid:PROJ_00048 a epix:Project ;
+    rdfs:label "S2Nano: NanoAnalysis" ;
+    epix:fundScheme epid:FS_00010 ;
+    dct:date "2017/2019"^^xsd:date ;
+    dct:contributor epid:PART_00003 .
