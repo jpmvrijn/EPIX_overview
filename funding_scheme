@@ -1,0 +1,28 @@
+# format: turtle
+
+@prefix epix: <https://github.com/jpmvrijn/EPIX_overview/terms#> .
+@prefix epid: <https://github.com/jpmvrijn/EPIX_overview/ids#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+epid:FS_00001 a epix:fundScheme ; rdfs:label "EU FP7 Large collaborative" .
+epid:FS_00002 a epix:fundScheme ; rdfs:label "EU FP7 Public- Private partnership" .
+epid:FS_00003 a epix:fundScheme ; rdfs:label "EU FP7 Small or medium-scale focused research project" .
+epid:FS_00004 a epix:fundScheme ; rdfs:label "EU FP7 research infrastructure" .
+epid:FS_00005 a epix:fundScheme ; rdfs:label "EU FP7 Modelling" .
+epid:FS_00006 a epix:fundScheme ; rdfs:label "DG Sanco / ANSES funded project" .
+epid:FS_00007 a epix:fundScheme ; rdfs:label "EU FP7 HEALTH" .
+epid:FS_00008 a epix:fundScheme ; rdfs:label "EU FP7 MC-IRSES" .
+epid:FS_00009 a epix:fundScheme ; rdfs:label "EU COST Action" .
+epid:FS_00010 a epix:fundScheme ; rdfs:label "MOTIE, Rep. of Korea" .
+epid:FS_00011 a epix:fundScheme ; rdfs:label "EU Horizon 2020 Infrastructure Project" .
+epid:FS_00012 a epix:fundScheme ; rdfs:label "EU Horizon 2020 Large collaborative" .
+epid:FS_00013 a epix:fundScheme ; rdfs:label "EU Horizon 2020 CSA" .
+epid:FS_00014 a epix:fundScheme ; rdfs:label "EU Horizon 2020 E-infrastructure" .
+epid:FS_00015 a epix:fundScheme ; rdfs:label "EU Horizon 2020 Marie Curie RISE" .
+epid:FS_00016 a epix:fundScheme ; rdfs:label "Euronanomed II ERA-Net" .
+epid:FS_00017 a epix:fundScheme ; rdfs:label "Euronanomed III ERA-Net" .
+epid:FS_00018 a epix:fundScheme ; rdfs:label "EU Horizon 2020 Flagship Program" .
+epid:FS_00019 a epix:fundScheme ; rdfs:label "EURAMET EMPIR & EU Horizon 2020" .
+epid:FS_00020 a epix:fundScheme ; rdfs:label "Natural Environment Research Council, UK" .
+epid:FS_00021 a epix:fundScheme ; rdfs:label "Medical Research Council, UK" .
+epid:FS_00022 a epix:fundScheme ; rdfs:label "NSF funded" .
