@@ -1,0 +1,29 @@
+# format: turtle
+
+@prefix epix: <https://github.com/jpmvrijn/EPIX_overview/terms#> .
+@prefix epid: <https://github.com/jpmvrijn/EPIX_overview/ids#> .
+@prefix dct:  <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+# contributor might not be the best term
+
+epid:PART_00001 a dct:contributor ; rdfs:label "BAM" .
+epid:PART_00002 a dct:contributor ; rdfs:label "BIOMAX" .
+epid:PART_00003 a dct:contributor ; rdfs:label "HU" .
+epid:PART_00004 a dct:contributor ; rdfs:label "LTU" .
+epid:PART_00005 a dct:contributor ; rdfs:label "MISVIK" .
+epid:PART_00006 a dct:contributor ; rdfs:label "Karolinska Institute" .
+epid:PART_00007 a dct:contributor ; rdfs:label "NHLS" .
+epid:PART_00008 a dct:contributor ; rdfs:label "NILU" .
+epid:PART_00009 a dct:contributor ; rdfs:label "NovaM" .
+epid:PART_00010 a dct:contributor ; rdfs:label "NRCWE" .
+epid:PART_00011 a dct:contributor ; rdfs:label "NTUA" .
+epid:PART_00012 a dct:contributor ; rdfs:label "QSARLab" .
+epid:PART_00013 a dct:contributor ; rdfs:label "Uni Gdansk" .
+epid:PART_00014 a dct:contributor ; rdfs:label "SU" .
+epid:PART_00015 a dct:contributor ; rdfs:label "UCD" .
+epid:PART_00016 a dct:contributor ; rdfs:label "UKRI" .
+epid:PART_00017 a dct:contributor ; rdfs:label "UM" .
+epid:PART_00018 a dct:contributor ; rdfs:label "UoB" .
+epid:PART_00019 a dct:contributor ; rdfs:label "UTA" .
+epid:PART_00020 a dct:contributor ; rdfs:label "UTARTU" .
